@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0720542E212C412500B87C06 /* LodgingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720542D212C412500B87C06 /* LodgingViewController.swift */; };
+		0721D55D212D95A600494B6E /* ParkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721D55C212D95A600494B6E /* ParkDetailViewController.swift */; };
+		0768685B212C88FA00AAD993 /* ParkSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07686859212C88FA00AAD993 /* ParkSelectTableViewCell.swift */; };
+		0768685C212C88FA00AAD993 /* ParkSelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0768685A212C88FA00AAD993 /* ParkSelectTableViewCell.xib */; };
+		0768685E212C904800AAD993 /* ParkSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768685D212C904800AAD993 /* ParkSelectViewController.swift */; };
+		078A904A212E57E4001182B8 /* HotelPopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A9048212E57E4001182B8 /* HotelPopularCollectionViewCell.swift */; };
+		078A904B212E57E4001182B8 /* HotelPopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078A9049212E57E4001182B8 /* HotelPopularCollectionViewCell.xib */; };
+		0797E4E2212C68E100F2E853 /* PersonSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797E4E1212C68E100F2E853 /* PersonSelectViewController.swift */; };
+		0797E4E5212C6F2F00F2E853 /* LocationSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797E4E4212C6F2F00F2E853 /* LocationSelectViewController.swift */; };
+		0797E4EA212C6FAE00F2E853 /* LocationSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797E4E8212C6FAE00F2E853 /* LocationSelectTableViewCell.swift */; };
+		0797E4EB212C6FAE00F2E853 /* LocationSelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0797E4E9212C6FAE00F2E853 /* LocationSelectTableViewCell.xib */; };
+		07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */; };
+		250F8EFE5DC0E7B65282B835 /* Pods_MyRealTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C0856A4691139B469102F8 /* Pods_MyRealTrip.framework */; };
+		303F274C20F758D500C27555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274B20F758D500C27555 /* AppDelegate.swift */; };
+		303F274E20F758D500C27555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274D20F758D500C27555 /* ViewController.swift */; };
+		303F275120F758D500C27555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F274F20F758D500C27555 /* Main.storyboard */; };
+		303F275320F758D500C27555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303F275220F758D500C27555 /* Assets.xcassets */; };
+		303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F275420F758D500C27555 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0720542D212C412500B87C06 /* LodgingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodgingViewController.swift; sourceTree = "<group>"; };
+		0721D55C212D95A600494B6E /* ParkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailViewController.swift; sourceTree = "<group>"; };
+		07686859212C88FA00AAD993 /* ParkSelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkSelectTableViewCell.swift; sourceTree = "<group>"; };
+		0768685A212C88FA00AAD993 /* ParkSelectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkSelectTableViewCell.xib; sourceTree = "<group>"; };
+		0768685D212C904800AAD993 /* ParkSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkSelectViewController.swift; sourceTree = "<group>"; };
+		078A9048212E57E4001182B8 /* HotelPopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		078A9049212E57E4001182B8 /* HotelPopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelPopularCollectionViewCell.xib; sourceTree = "<group>"; };
+		0797E4E1212C68E100F2E853 /* PersonSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSelectViewController.swift; sourceTree = "<group>"; };
+		0797E4E4212C6F2F00F2E853 /* LocationSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectViewController.swift; sourceTree = "<group>"; };
+		0797E4E8212C6FAE00F2E853 /* LocationSelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectTableViewCell.swift; sourceTree = "<group>"; };
+		0797E4E9212C6FAE00F2E853 /* LocationSelectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationSelectTableViewCell.xib; sourceTree = "<group>"; };
+		07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LodgingView.storyboard; sourceTree = "<group>"; };
+		303F274820F758D500C27555 /* MyRealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303F274B20F758D500C27555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303F274D20F758D500C27555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		303F275020F758D500C27555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303F275220F758D500C27555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303F275520F758D500C27555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303F275720F758D500C27555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C0856A4691139B469102F8 /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRealTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4796583FD500699E72163C77 /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		823A48B27DB413CB68F3C416 /* Pods-MyRealTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303F274520F758D500C27555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250F8EFE5DC0E7B65282B835 /* Pods_MyRealTrip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07686856212C87D500AAD993 /* ParkSelectXib */ = {
+			isa = PBXGroup;
+			children = (
+				07686859212C88FA00AAD993 /* ParkSelectTableViewCell.swift */,
+				0768685A212C88FA00AAD993 /* ParkSelectTableViewCell.xib */,
+			);
+			path = ParkSelectXib;
+			sourceTree = "<group>";
+		};
+		078A904C212E5863001182B8 /* HotelPopularXib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HotelPopularXib;
+			sourceTree = "<group>";
+		};
+		0797E4E3212C6F0A00F2E853 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0720542D212C412500B87C06 /* LodgingViewController.swift */,
+				0797E4E4212C6F2F00F2E853 /* LocationSelectViewController.swift */,
+				0797E4E1212C68E100F2E853 /* PersonSelectViewController.swift */,
+				0768685D212C904800AAD993 /* ParkSelectViewController.swift */,
+				0721D55C212D95A600494B6E /* ParkDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0797E4E6212C6F7B00F2E853 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				078A9048212E57E4001182B8 /* HotelPopularCollectionViewCell.swift */,
+				078A9049212E57E4001182B8 /* HotelPopularCollectionViewCell.xib */,
+				078A904C212E5863001182B8 /* HotelPopularXib */,
+				07686856212C87D500AAD993 /* ParkSelectXib */,
+				0797E4E7212C6F8900F2E853 /* LocationSelectXib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		0797E4E7212C6F8900F2E853 /* LocationSelectXib */ = {
+			isa = PBXGroup;
+			children = (
+				0797E4E8212C6FAE00F2E853 /* LocationSelectTableViewCell.swift */,
+				0797E4E9212C6FAE00F2E853 /* LocationSelectTableViewCell.xib */,
+			);
+			path = LocationSelectXib;
+			sourceTree = "<group>";
+		};
+		303F273F20F758D500C27555 = {
+			isa = PBXGroup;
+			children = (
+				303F274A20F758D500C27555 /* MyRealTrip */,
+				303F274920F758D500C27555 /* Products */,
+				3C9F42453ACAEE8A3C7C44F9 /* Pods */,
+				AD5BE28A5BB94C6FC021160F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		303F274920F758D500C27555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303F274820F758D500C27555 /* MyRealTrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303F274A20F758D500C27555 /* MyRealTrip */ = {
+			isa = PBXGroup;
+			children = (
+				0797E4E6212C6F7B00F2E853 /* xib */,
+				0797E4E3212C6F0A00F2E853 /* ViewController */,
+				303F274B20F758D500C27555 /* AppDelegate.swift */,
+				303F274D20F758D500C27555 /* ViewController.swift */,
+				303F274F20F758D500C27555 /* Main.storyboard */,
+				07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */,
+				303F275220F758D500C27555 /* Assets.xcassets */,
+				303F275420F758D500C27555 /* LaunchScreen.storyboard */,
+				303F275720F758D500C27555 /* Info.plist */,
+			);
+			path = MyRealTrip;
+			sourceTree = "<group>";
+		};
+		3C9F42453ACAEE8A3C7C44F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4796583FD500699E72163C77 /* Pods-MyRealTrip.debug.xcconfig */,
+				823A48B27DB413CB68F3C416 /* Pods-MyRealTrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD5BE28A5BB94C6FC021160F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33C0856A4691139B469102F8 /* Pods_MyRealTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303F274720F758D500C27555 /* MyRealTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303F275A20F758D500C27555 /* Build configuration list for PBXNativeTarget "MyRealTrip" */;
+			buildPhases = (
+				A841B41818709EE09D1F1BE7 /* [CP] Check Pods Manifest.lock */,
+				303F274420F758D500C27555 /* Sources */,
+				303F274520F758D500C27555 /* Frameworks */,
+				303F274620F758D500C27555 /* Resources */,
+				B8C986F14278E6FEF03DE7A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRealTrip;
+			productName = MyRealTrip;
+			productReference = 303F274820F758D500C27555 /* MyRealTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303F274020F758D500C27555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sanghyuk;
+				TargetAttributes = {
+					303F274720F758D500C27555 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 303F274320F758D500C27555 /* Build configuration list for PBXProject "MyRealTrip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303F273F20F758D500C27555;
+			productRefGroup = 303F274920F758D500C27555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303F274720F758D500C27555 /* MyRealTrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303F274620F758D500C27555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */,
+				303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */,
+				303F275320F758D500C27555 /* Assets.xcassets in Resources */,
+				0797E4EB212C6FAE00F2E853 /* LocationSelectTableViewCell.xib in Resources */,
+				303F275120F758D500C27555 /* Main.storyboard in Resources */,
+				0768685C212C88FA00AAD993 /* ParkSelectTableViewCell.xib in Resources */,
+				078A904B212E57E4001182B8 /* HotelPopularCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A841B41818709EE09D1F1BE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyRealTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C986F14278E6FEF03DE7A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarDateRangePickerViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303F274420F758D500C27555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0768685B212C88FA00AAD993 /* ParkSelectTableViewCell.swift in Sources */,
+				0721D55D212D95A600494B6E /* ParkDetailViewController.swift in Sources */,
+				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
+				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
+				0797E4EA212C6FAE00F2E853 /* LocationSelectTableViewCell.swift in Sources */,
+				0797E4E2212C68E100F2E853 /* PersonSelectViewController.swift in Sources */,
+				0720542E212C412500B87C06 /* LodgingViewController.swift in Sources */,
+				078A904A212E57E4001182B8 /* HotelPopularCollectionViewCell.swift in Sources */,
+				0768685E212C904800AAD993 /* ParkSelectViewController.swift in Sources */,
+				0797E4E5212C6F2F00F2E853 /* LocationSelectViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		303F274F20F758D500C27555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303F275020F758D500C27555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		303F275420F758D500C27555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303F275520F758D500C27555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303F275820F758D500C27555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		303F275920F758D500C27555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303F275B20F758D500C27555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4796583FD500699E72163C77 /* Pods-MyRealTrip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = MyRealTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.sanghyuk.example.MyRealTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303F275C20F758D500C27555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823A48B27DB413CB68F3C416 /* Pods-MyRealTrip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = MyRealTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.sanghyuk.example.MyRealTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303F274320F758D500C27555 /* Build configuration list for PBXProject "MyRealTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303F275820F758D500C27555 /* Debug */,
+				303F275920F758D500C27555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303F275A20F758D500C27555 /* Build configuration list for PBXNativeTarget "MyRealTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303F275B20F758D500C27555 /* Debug */,
+				303F275C20F758D500C27555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303F274020F758D500C27555 /* Project object */;
+}
