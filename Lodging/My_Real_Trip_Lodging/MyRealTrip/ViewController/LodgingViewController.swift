@@ -177,7 +177,7 @@ class LodgingViewController: UIViewController {
         var hotelPersonText = Hotel.Person.init(adult: 2, kid: 0, room: 1)
         
         hotelLocationLabel.text = hotelLocationText.locationName
-        hotelCalenderLabel.text = "\(hotelCalenderText.month)월\(hotelCalenderText.day) -  \(hotelCalenderText.month)월\(hotelCalenderText.day + 1)일"
+        hotelCalenderLabel.text = "\(hotelCalenderText.month)월\(hotelCalenderText.day)일 -  \(hotelCalenderText.month)월\(hotelCalenderText.day + 1)일"
         hotelPersonLabel.text = "성인\(hotelPersonText.adult), 어린이\(hotelPersonText.kid) / 객실\(hotelPersonText.room)"
         
         //ParkButtonView
