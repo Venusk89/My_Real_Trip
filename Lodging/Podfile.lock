@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CalendarDateRangePickerViewController (0.1.0)
+  - Kingfisher (4.8.0)
+  - ParallaxHeader (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CalendarDateRangePickerViewController
+  - Kingfisher (~> 4.8)
+  - ParallaxHeader (~> 2.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CalendarDateRangePickerViewController
+    - Kingfisher
+    - ParallaxHeader
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CalendarDateRangePickerViewController: 9e82a36a21ad7338f4e21a314469bfabe1f738fb
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
+
+PODFILE CHECKSUM: e5f03d50286dc7bb09c5e89e14ea424412ac7ad5
+
+COCOAPODS: 1.5.3
